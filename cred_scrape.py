@@ -3,24 +3,14 @@
 
 
 import json
-
 import os
-
 import requests
-
 import sys
-
-
-
 repo_urls = []
-
-
 
 for i in json.loads(requests.get('https://api.github.com/orgs/%s/repos' % sys.argv[1]).content):
 
   repo_urls.append(i['html_url'])
-
-
 
 for i in set(repo_urls):
 
