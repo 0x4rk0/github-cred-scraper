@@ -6,7 +6,7 @@
 pip install truffleHog
 ```
 
-### This will scrape an entire organization's repos on github for plain text creds, API keys, SSH keys, etc
+### This will scrape an entire organization's content on github for plain text creds, API keys, SSH keys, etc
 
 ### Example
 
