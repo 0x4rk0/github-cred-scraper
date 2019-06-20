@@ -2,6 +2,6 @@
 
 ## Requirements
 
-'''python
+```python
 pip install truffleHog
-'''
+```
