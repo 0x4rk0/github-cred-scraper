@@ -20,6 +20,8 @@ This will append results into
 ORG_results.txt
 ```
 
+Not sure what an "Org" is? Search using the github search bar for "org:foo"
+
 From here, you can grep through the results
 
 Big thanks to @metacortex for the help on the Python!
