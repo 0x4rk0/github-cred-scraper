@@ -11,7 +11,7 @@ pip install truffleHog
 ### Example
 
 ```
-python git_scan.py ORG
+python cred_scan.py ORG
 ```
 
 This will append results into
