@@ -3,7 +3,7 @@
 ## Requirements
 
 ```python
-pip install truffleHog
+pip3 install -r requirements.txt
 ```
 
 ### This will scrape an entire organization's content on github for plain text creds, API keys, SSH keys, etc
@@ -11,7 +11,7 @@ pip install truffleHog
 ### Example
 
 ```
-python cred_scan.py ORG
+python3 cred_scan.py
 ```
 
 This will append results into
